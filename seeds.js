@@ -8,6 +8,14 @@ db.animals.insert([
 {
   name: "Betsy",
   species: "cow"
+}. 
+{
+  name: "Percy", 
+  species: "Collie Dog"
 }
-  ]);}
+  ]}
+
+  );
+
+
 

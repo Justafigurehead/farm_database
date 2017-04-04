@@ -1,0 +1,25 @@
+{
+  "name": "database_mongod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "seeds.js",
+  "dependencies": {
+    "mongodb": "^2.2.25"
+  },
+  "devDependencies": {
+    "webpack": "^2.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justafigurehead/farm_database.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Justafigurehead/farm_database/issues"
+  },
+  "homepage": "https://github.com/Justafigurehead/farm_database#readme"
+}
