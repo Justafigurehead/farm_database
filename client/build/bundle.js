@@ -63,15 +63,21 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
 /***/ (function(module, exports) {
 
+
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports) {
+
 /* WEBPACK VAR INJECTION */(function(__dirname) {config = {
-  entry: "./src/index.js",
+  entry: "./src/app.js",
   output: {
     filename: "bundle.js",
     path: __dirname + "/build"
@@ -83,11 +89,11 @@ module.exports = config;
 /* WEBPACK VAR INJECTION */}.call(exports, "/"))
 
 /***/ }),
-/* 1 */
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-(function webpackMissingModule() { throw new Error("Cannot find module \"./src/index.js\""); }());
-module.exports = __webpack_require__(0);
+__webpack_require__(0);
+module.exports = __webpack_require__(1);
 
 
 /***/ })
